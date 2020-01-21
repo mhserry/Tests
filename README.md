@@ -10,7 +10,7 @@ Given N number of sentences budget, find summary of N sentences such that: MAX( 
 Therefore, i rephrased the problem into an optimzation problem where i aim to maximize the score to word count ratio for each subset of sentence combinations.
 
 ## STEPS
-1 - Tokenize Words
+1 - Tokenize Words \n
 2 - Stem words to origin roots.
 3 - Strip characters such as . , from the word tokens to get to the actual word count.
 4 - Count words while ignoring stop words for the english language.
