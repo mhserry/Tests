@@ -10,18 +10,30 @@ Given N number of sentences budget, find summary of N sentences such that: MAX( 
 Therefore, i rephrased the problem into an optimzation problem where i aim to maximize the score to word count ratio for each subset of sentence combinations.
 
 ## STEPS
-1 - Tokenize Words \n
+1 - Tokenize Words.
+
 2 - Stem words to origin roots.
+
 3 - Strip characters such as . , from the word tokens to get to the actual word count.
+
 4 - Count words while ignoring stop words for the english language.
+
 5 - Count word frequency.
+
 6 - Tokenize sentences from the source text. 
-7 - Score sentences based on the frequency of words in the sentence
+
+7 - Score sentences based on the frequency of words in the sentence.
+
 8 - Calculate the average sentence score.
+
 9 - Calculate the sentence budget for our summary (20%, 40%...etc from the total sentences count)
+
 10 - Generate a set of the highest scored sentences, where each element is a tuple of: (sentence, score, word count in sentence)
+
 11 - Generate N unique subsets of size K from the set of sentence tuples (possible valid summary candidates). 
+
 12 - linear search through the subsets while scoring them to calculate the overall score to word count ratio in the summary and rank them accordingly. 
+
 13 - find the best sentences that fit the summmary budget.
 
 ## FUTURE SOLUTIONS
