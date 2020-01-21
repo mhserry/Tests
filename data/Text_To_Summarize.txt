@@ -1,4 +1,3 @@
-The following is the input passage-text for all the mentioned problems:
 Just A Rather Very Intelligent System a.k.a JARVIS is created by Tony Stark natural-language and a
 sophisticated artificial intelligence user interface computer system, named after Edwin Jarvis, the butler
 who worked for Howard Stark. Though its primary duty is to automate Stark’s Malibu estate, the lifelike

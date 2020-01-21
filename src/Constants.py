@@ -12,4 +12,4 @@ file_append_command = "a"
 summary_lang = "english"
 
 # constant string to seperate the summary in the result file
-summary_title = "\n ============================== SUMMARY ======================== \n"
+summary_title = "\n\n\n ============================ SUMMARY ======================== \n\n\n"
