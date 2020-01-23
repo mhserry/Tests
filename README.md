@@ -48,5 +48,6 @@ currently my solution does not do summaries larger than 40-50% of the text as it
 the algorithimic complexity could defintely be improved. but the overall problem approach i chose is: solve for the base cases (20, 40%) and expand from there.
 
 ## INSTRUCTIONS TO RUN
-i used pycharm during the development of this. but i just added the python files and defined a main function. the summary is appened to the original text file. 
+i used pycharm during the development of this. but i just added the python files and defined a main function. the summary is appened to the original text file. please change the path for the data file directory in the Constants.py file so the text file is read properly.
+
 
