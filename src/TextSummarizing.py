@@ -1,11 +1,10 @@
-import itertools
-
-import Constants as c
 import string
+import itertools
+import Constants as c
 
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize, sent_tokenize
 
 
 class ExtractionSummarizer(object):
