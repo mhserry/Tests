@@ -103,7 +103,7 @@ class ExtractionSummarizer(object):
             subset_score = sum(n for _, n, _ in subset)
             scr_to_wrd_cnt_ratio = self.__get_scr_to_wrd_cnt_ratio(subset_wrd_cnt, subset_score)
             if max_scr_to_wrd_cnt_ratio < scr_to_wrd_cnt_ratio:
-                max_scr_to_wrd_cnt_ratio = subset_wrd_cnt
+                max_scr_to_wrd_cnt_ratio = scr_to_wrd_cnt_ratio
                 max_subset = subset
         return max_subset
 
